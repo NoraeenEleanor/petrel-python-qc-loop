@@ -1,6 +1,3 @@
-
-
-
 import xtgeo
 import numpy as np
 import matplotlib.pyplot as plt
@@ -26,7 +23,7 @@ print(f"Min:    {poro_arr.min():.4f}")
 print(f"Max:    {poro_arr.max():.4f}")
 print(f"Mean:   {poro_arr.mean():.4f}")
 
-# Part 2: Adjust color to Petrel-like colormap (cmap=get is almost closest one)
+# Part 2: Adjust color to Petrel-like colormap (cmap=get is almost closest one or up to your preference)
 petrel_colors = [
     "#00008B",   # dark blue (for low PORO)
     "#0000FF",   # blue,    
@@ -88,8 +85,8 @@ plotter_static.add_mesh(mesh, scalars="PORO", cmap=petrel_cmap, clim=[0, 0.28],
 plotter_static.add_axes()
 plotter_static.set_background("white")
 plotter_static.camera_position = [
-    (60, -40, 35),      # camera position - tepi kanan atas
-    (13, 15, 3),        # focal point - tengah model
+    (60, -40, 35),      # camera position - right edge top
+    (13, 15, 3),        # focal point - middle
     (0, 0, 1)           # up vector
 ]
 
