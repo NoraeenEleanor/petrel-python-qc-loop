@@ -4,7 +4,7 @@ A Python workflow to QC upscaled reservoir simulation grid properties exported f
 
 ## Background
 
-In reservoir simulation, one of the most common early-stage problems is poor connectivity between wells and the geocellular model — often caused by incorrect perforations, production allocation issues, or poor reservoir characterization in the upscaled grid. (SPE 164420)
+In reservoir simulation, one of the most common early-stage problems is poor connectivity between wells and the geocellular model - often caused by incorrect perforations, production allocation issues, or poor reservoir characterization in the upscaled grid. (SPE 164420)
 
 This workflow reads Petrel-exported grid properties directly into Python (.EGRID & .GRDECL), flags problematic cells based on porosity cutoffs, and visualizes the results in 3D without needing Petrel open.
 
@@ -36,8 +36,8 @@ pip install xtgeo pyvista numpy matplotlib
 ## How to Use
 
 This workflow requires your own Petrel-exported files:
-- `.EGRID` — grid geometry (export via right-click Simulation grid → Export model → ECLIPSE keywords)
-- `PORO.GRDECL` — porosity property (export via right-click property → Export → ECLIPSE keywords)
+- `.EGRID` - grid geometry (export via right-click Simulation grid → Export model → ECLIPSE keywords)
+- `PORO.GRDECL` - porosity property (export via right-click property → Export → ECLIPSE keywords)
 
 Update the cutoff values, grid dimensions, and well coordinates in the script to match your own dataset.
 
