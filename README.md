@@ -19,7 +19,6 @@ This workflow reads Petrel-exported grid properties directly into Python (.EGRID
 - library: xtgeo - reading/writing subsurface grid properties
 - PyVista - 3D visualization
 - matplotlib - histograms and statistics
-- Petrel 2018 — source of exported grid data
 
 ## Files
 
