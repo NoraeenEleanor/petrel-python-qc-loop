@@ -24,7 +24,7 @@ This workflow reads Petrel-exported grid properties directly into Python (.EGRID
 ## Files
 
 - `Part 1: Importing & Visualizing` (load grid + porosity, generate 3D visualization)
-- `Part 2: Qcing` (QC cutoffs, flag map, well overlay)
+- `Part 2: QCing` (QC cutoffs, flag map, well overlay)
 
 ## Requirements
 
