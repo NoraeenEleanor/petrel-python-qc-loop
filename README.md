@@ -12,6 +12,7 @@ This workflow reads Petrel-exported grid properties directly into Python (.EGRID
 
 - ✅ Part 1: Read + Visualize upscaled porosity (posted on LinkedIn)
 - ✅ Part 2: Property QC + connectivity flag map (posted on LinkedIn)
+- ✅ Part 3: Modify PERMX + Export (posted on LinkedIn)
 
 ## Tools Used
 
@@ -24,6 +25,7 @@ This workflow reads Petrel-exported grid properties directly into Python (.EGRID
 
 - `Part 1: Importing & Visualizing` (load grid + porosity, generate 3D visualization)
 - `Part 2: QCing` (QC cutoffs, flag map, well overlay)
+- `Part 3: Modifying` (PERMX)
 
 ## Requirements
 
