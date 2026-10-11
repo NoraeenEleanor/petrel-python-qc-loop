@@ -10,23 +10,29 @@ This workflow reads Petrel-exported grid properties directly into Python (.EGRID
 
 ## Series Progress
 
-- ✅ Part 1: Read + Visualize upscaled porosity (posted on LinkedIn)
-- ✅ Part 2: Property QC + connectivity flag map (posted on LinkedIn)
-- ✅ Part 3: Modify PERMX + Export (posted on LinkedIn)
+- ✅ Part 1: Read + Visualize upscaled porosity
+- ✅ Part 2: Property QC + connectivity flag map
+- ✅ Part 3: Modify PERMX + Export
 - ✅ Part 4: Validate by Export (Python) to Import (Petrel)
+- ✅ Part 5: Build an ECLIPSE-compatible Reservoir Simulation Deck
+- ✅ Part 6: Validate on Open Source Reservoir Simulator (OPM Flow)
+- ✅ Part 7: Re-model in Python & Validate in Petrel (SPE 164420)
 
 ## Tools Used
 
-- Python 3.10
+- Python 3.10 (library: xtgeo; PyVista (visualization))
 - library: xtgeo - reading/writing subsurface grid properties
-- PyVista - 3D visualization
-- matplotlib - histograms and statistics
+- Petrel & OPM for calibration
 
 ## Files
 
 - `Part 1: Importing & Visualizing` (load grid + porosity, generate 3D visualization)
-- `Part 2: QCing` (QC cutoffs, flag map, well overlay)
-- `Part 3: Modifying` (PERMX)
+- `Part 2: QCing` (QC cutoffs, flag map, well overlay) in Python
+- `Part 3: Modifying` (PERMX) in Python
+- `Part 4: Validating` (PERMX) in Petrel
+- `Part 5: Building & Importing` from Python into Petrel
+- `Part 6: Validating` in OPM Flow
+- `Part 7: Re-modeling & Validating` SPE 164420 in Python & Petrel
 
 ## Requirements
 
