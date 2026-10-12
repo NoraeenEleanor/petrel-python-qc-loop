@@ -1,0 +1,18 @@
+# WELL TRACE FROM PETREL 
+# WELL NAME:              I04
+# DEFINITIVE SURVEY:      MD Incl Azim survey 1
+# WELL HEAD X-COORDINATE: 3500.00000000 (m)
+# WELL HEAD Y-COORDINATE: 7400.00000000 (m)
+# WELL DATUM (KB, Kelly bushing, from MSL): 0.00000000 (m)
+# WELL TYPE:              INJECTION WATER
+# MD AND TVD ARE REFERENCED (=0) AT WELL DATUM AND INCREASE DOWNWARDS
+# ANGLES ARE GIVEN IN DEGREES
+# XYZ TRACE IS GIVEN IN COORDINATE SYSTEM <Undefined>
+# AZIMUTH REFERENCE UNDEFINED
+# DX DY ARE UNDEFINED IN m-UNITS
+# DEPTH (Z, tvd_z) GIVEN IN m-UNITS
+#================================================================================================================================
+      MD            X            Y            Z           TVD           DX          DY          AZIM         INCL         DLS
+#================================================================================================================================
+ 0.0000000000 3500.0000000 7400.0000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
+ 3000.0000000 3500.0000000 7400.0000000 -3000.000000 3000.0000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
